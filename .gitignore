@@ -1,1 +1,34 @@
+# Byte-compiled / optimized / DLL files
+python_openai/__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development settings
 .env
+*.sqlite3
+
+# Log files
+*.log
+
+# Media files
+/media/
+/uploads/
+
+# Static files
+/staticfiles/
+
+# Secret key
+*.secret_key
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Compiled Python bytecode
+*.pyc
+
+# Ignore migrations unless they're in an app's migration folder
+**/migrations/*
+!**/migrations/__init__.py
